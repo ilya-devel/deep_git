@@ -6,3 +6,4 @@ import logging
 ROOT = Path(Path.cwd())
 
 logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
