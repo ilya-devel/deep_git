@@ -10,3 +10,4 @@ logger = logging.getLogger(__name__)
 
 os.system('whoami')
 
+DOWNLOAD = Path(Path.cwd, 'Download')
